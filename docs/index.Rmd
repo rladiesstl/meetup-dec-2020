@@ -15,11 +15,16 @@ options(htmltools.dir.version = FALSE)
 
 # Materials for tonight 
 
-- All materials can be found here: 
+- All materials can be found here: https://github.com/klmedeiros/rladiesSTL-dec2020-intro-shiny
 
 - Install R packages:
 
-  + 
+  + shiny
+  + tidyverse
+  + forcats
+  + shinythemes
+  + DT
+  + plotly
 
 ---
 
@@ -27,7 +32,7 @@ options(htmltools.dir.version = FALSE)
 
 - R-Ladies is a world-wide organization with the mission of promoting **gender diversity in the R community**  
 
-- Started in San Francisco in 2012 and now has **197 chapters and more than 78,000** members globally (check out rladies.org for a SHINY dashboard)
+- Started in San Francisco in 2012 and now has **197 chapters and more than 78,000** members globally (check out rladies.org for a Shiny dashboard)
 
 ```{r, echo=FALSE, fig.align="center", out.width='70%'}
 knitr::include_graphics("https://pbs.twimg.com/media/EPlDKUQUcAEq5pw?format=jpg&name=small")
@@ -40,7 +45,7 @@ knitr::include_graphics("https://pbs.twimg.com/media/EPlDKUQUcAEq5pw?format=jpg&
 
 * Started in September 2017 by Jenine Harris and Chelsea West 
 
-* 4 Meetups in 2017-2018, 5 Meetups in 2018-2019, 5 in 2019-2020, and 8 scheduled for 2020!
+* 4 Meetups in 2017-2018, 5 Meetups in 2018-2019, 5 in 2019-2020, and 8 scheduled for 2020-21!
 
 * Co-organizers for 2020-21 include:
 
@@ -65,6 +70,8 @@ knitr::include_graphics("https://pbs.twimg.com/media/EPlDKUQUcAEq5pw?format=jpg&
     - Past Event: Intro to Network Analysis with **Dr. Maria C. Ramos** (Duke University)  
     
     - **TODAY! Our 18th Meetup**: Dec 9: Intro to Shiny with **Kaelen Medeiros** (Medidata)
+    
+    - Spring schedule to be finalized soon!
     
 * RSVP on Meetup
 
